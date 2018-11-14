@@ -1,0 +1,94 @@
+{
+    "configurations": [
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - MultiThread",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "console": "internalConsole",
+        "stopOnEntry": false,
+        "mainClass": "MultiThread",
+        "args": ""
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - CopyFile",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "console": "internalConsole",
+        "stopOnEntry": false,
+        "mainClass": "CopyFile",
+        "args": ""
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - DelayPackage",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "console": "internalConsole",
+        "stopOnEntry": false,
+        "mainClass": "DelayPackage",
+        "args": ""
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - UserException",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "console": "internalConsole",
+        "stopOnEntry": false,
+        "mainClass": "UserException",
+        "args": ""
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - OverridenMeth",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "console": "internalConsole",
+        "stopOnEntry": false,
+        "mainClass": "OverridenMeth",
+        "args": ""
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - MultilevelInherit",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "console": "internalConsole",
+        "stopOnEntry": false,
+        "mainClass": "MultilevelInherit",
+        "args": ""
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - OverloadConst",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "console": "internalConsole",
+        "stopOnEntry": false,
+        "mainClass": "OverloadConst",
+        "args": ""
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - ConstructorDemo",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "console": "internalConsole",
+        "stopOnEntry": false,
+        "mainClass": "ConstructorDemo",
+        "args": ""
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - SimpleClass",
+        "request": "launch",
+        "cwd": "${workspaceFolder}",
+        "console": "internalConsole",
+        "stopOnEntry": false,
+        "mainClass": "SimpleClass",
+        "args": ""
+      }
+    ]
+  }
