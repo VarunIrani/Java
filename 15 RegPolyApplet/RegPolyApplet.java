@@ -2,7 +2,6 @@ import java.awt.*;
 import java.applet.*;
 
 public class RegPolyApplet extends Applet{
-  private static final long serialVersionUID = 1L;
   private static final double PI = 3.1415926535; 
   private static final int WIDTH = 1280;
   private static final int HEIGHT = 720;
