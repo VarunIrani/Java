@@ -16,11 +16,11 @@ class StringMethods {
   void charExtract() {
     String s = "Hello Java. You are 23 years old";
     int start = 0;
-    int end = 9;
+    int end = 11;
     char buffer[] = new char[end - start];
     s.getChars(start, end, buffer, 0);
     String es = new String(buffer);
-    char ch = s.charAt(7);
+    char ch = s.charAt(6);
     out.println("Original String: " + s);
     out.println("Extracted String: " + es);
     out.println("Extracted Character: " + ch);
@@ -46,8 +46,8 @@ class StringMethods {
   void stringReplace() {
     int i;
     String org = "This is a test. This is too";
-    String search = "is";
-    String sub = "was";
+    String search = " is ";
+    String sub = " was ";
     String result = "";
     do {
         out.println(org);
