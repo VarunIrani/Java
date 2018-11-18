@@ -1,6 +1,7 @@
 import static java.lang.System.*;
 
 class InvalidProductException extends Exception {
+  private static final long serialVersionUID = 1L;
   int w;
 
   InvalidProductException(int w) {
