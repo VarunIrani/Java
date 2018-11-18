@@ -49,6 +49,6 @@ class Average extends Student {
 
 class MultilevelInherit {
   public static void main(String[] args) {
-    Average a = new Average();
+    new Average();
   }
 }
