@@ -1,4 +1,5 @@
 import static java.lang.System.*;
+
 class Person {
   String name;
   int age;

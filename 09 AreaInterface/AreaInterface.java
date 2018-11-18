@@ -2,6 +2,7 @@ import static java.lang.System.*;
 
 interface Area {
   final float PI = 3.1415926535F;
+
   float compute();
 }
 

@@ -50,14 +50,14 @@ class StringMethods {
     String sub = " was ";
     String result = "";
     do {
-        out.println(org);
-        i = org.indexOf(search);
-        if (i != -1) {
-            result = org.substring(0, i);
-            result += sub;
-            result += org.substring(i + search.length());
-            org = result;
-        }
+      out.println(org);
+      i = org.indexOf(search);
+      if (i != -1) {
+        result = org.substring(0, i);
+        result += sub;
+        result += org.substring(i + search.length());
+        org = result;
+      }
     } while (i != -1);
   }
 
@@ -82,35 +82,35 @@ class StringMethods {
     out.println("8. Exit");
     out.print("Enter Your Choice: ");
     try {
-        InputStreamReader is = new InputStreamReader(in);
-        BufferedReader reader = new BufferedReader(is);
-        ch = Integer.parseInt(reader.readLine());
+      InputStreamReader is = new InputStreamReader(in);
+      BufferedReader reader = new BufferedReader(is);
+      ch = Integer.parseInt(reader.readLine());
     } catch (Exception e) {
-        e.printStackTrace();
+      e.printStackTrace();
     }
     switch (ch) {
-        case 1:
-            sMethods.stringLength();
-            break;
-        case 2:
-            sMethods.concatString();
-            break;
-        case 3:
-            sMethods.charExtract();
-            break;
-        case 4:
-            sMethods.compStrings();
-            break;
-        case 5:
-            sMethods.charCase();
-            break;
-        case 6:
-            sMethods.stringReplace();
-            break;
-        case 7:
-            sMethods.stringReverse();
-        case 8: 
-            break;
+    case 1:
+      sMethods.stringLength();
+      break;
+    case 2:
+      sMethods.concatString();
+      break;
+    case 3:
+      sMethods.charExtract();
+      break;
+    case 4:
+      sMethods.compStrings();
+      break;
+    case 5:
+      sMethods.charCase();
+      break;
+    case 6:
+      sMethods.stringReplace();
+      break;
+    case 7:
+      sMethods.stringReverse();
+    case 8:
+      break;
     }
   }
 }

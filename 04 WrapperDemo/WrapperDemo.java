@@ -1,4 +1,5 @@
 import static java.lang.System.*;
+
 class WrapperDemo {
   public static void main(String[] args) {
     boolean bool = true;
